@@ -1,0 +1,47 @@
+@import "colors";
+
+.stationSection {
+  background-color: $item-color;
+  padding: 6px 4px;
+  padding-bottom: 0;
+  ul {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #82889894;
+    li {
+      list-style: none;
+      padding: 8px 0;
+
+      margin-right: 20px;
+      margin-left: -14px;
+      border-bottom: 1px solid #82889836;
+      color: $item-text;
+      font-weight: 500;
+      &:last-child {
+        border-bottom: none;
+      }
+      .titleBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+}
+.currentStation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .stationImg {
+    width: 140px;
+    border-radius: 50%;
+    border: 3px solid #82889894;
+  }
+  .imgBox {
+    width: 40px;
+    cursor: pointer;
+    img{
+      width: 100%;
+    }
+  }
+}

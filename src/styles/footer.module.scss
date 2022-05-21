@@ -1,0 +1,25 @@
+@import "colors";
+
+.footer {
+  background-color: #22222b;
+  width: 28rem;
+  height: 85px;
+  margin-bottom: 80px;
+  margin-top: -1rem;
+  position: absolute;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-align: center;
+  p{
+      text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-top: 24px;
+    color: $nav-color;
+    font-weight: 500;
+  }
+  .title{
+      font-size: 18px;
+      color: $item-text;
+  }
+}

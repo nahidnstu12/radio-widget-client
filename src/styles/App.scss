@@ -1,0 +1,27 @@
+@import "./colors";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.main-container {
+  min-height: 100vh;
+  height: auto;
+  background: $body-color;
+  color: $text-color;
+  display: grid;
+  place-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.wrapper {
+  width: 100%;
+  max-width: 28rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  box-shadow: 0 88px 51px -28px black;
+  position: relative;
+  margin-bottom: 4rem;
+}
