@@ -17,9 +17,9 @@ Project is: _completed_
 ---
 
 ### Demo Image
-![image info](/client/src/img/radio-station-preview-0.png)
+![image info](src/img/radio-station-preview-0.png)
 
-![image info](/client/src/img/radio-station-preview.png)
+![image info](src/img/radio-station-preview.png)
 
 
 ## Contact
